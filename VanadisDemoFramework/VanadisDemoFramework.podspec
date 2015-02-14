@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/jvelascovanadis/VanadisTestComponent.git", :commit => "5bf7a9de2092a4d589030698f248b87cff6ae197" }
+  s.source       = { :git => "https://github.com/jvelascovanadis/VanadisTestComponent.git", :tag => "0.1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
