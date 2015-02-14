@@ -10,4 +10,11 @@
 
 @implementation Person
 
+@synthesize name,surname;
+
++ (NSString *) sayHi
+{
+    return [NSString stringWithFormat:@"Hi to the world!!"];
+}
+
 @end
