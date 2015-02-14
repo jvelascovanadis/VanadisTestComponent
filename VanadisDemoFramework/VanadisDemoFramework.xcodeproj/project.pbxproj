@@ -26,6 +26,8 @@
 		F198B7371A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F198B7361A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m */; };
 		F198B7421A8FC47700A0EE0B /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F198B7401A8FC47700A0EE0B /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F198B7431A8FC47700A0EE0B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F198B7411A8FC47700A0EE0B /* Person.m */; };
+		F198B74A1A8FD08500A0EE0B /* VanadisDemoFramework.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F198B7491A8FD08500A0EE0B /* VanadisDemoFramework.podspec */; };
+		F198B74C1A8FD42900A0EE0B /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F198B74B1A8FD42900A0EE0B /* License.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F198B7361A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VanadisDemoFrameworkTests.m; sourceTree = "<group>"; };
 		F198B7401A8FC47700A0EE0B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F198B7411A8FC47700A0EE0B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		F198B7491A8FD08500A0EE0B /* VanadisDemoFramework.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VanadisDemoFramework.podspec; sourceTree = "<group>"; };
+		F198B74B1A8FD42900A0EE0B /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,8 @@
 		F198B71A1A8FC43600A0EE0B = {
 			isa = PBXGroup;
 			children = (
+				F198B74B1A8FD42900A0EE0B /* License.txt */,
+				F198B7491A8FD08500A0EE0B /* VanadisDemoFramework.podspec */,
 				F198B7261A8FC43600A0EE0B /* VanadisDemoFramework */,
 				F198B7331A8FC43600A0EE0B /* VanadisDemoFrameworkTests */,
 				F198B7251A8FC43600A0EE0B /* Products */,
@@ -217,6 +223,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F198B74C1A8FD42900A0EE0B /* License.txt in Resources */,
+				F198B74A1A8FD08500A0EE0B /* VanadisDemoFramework.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
