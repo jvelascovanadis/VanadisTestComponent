@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>BaseResources.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Framework.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ResourcesBundle.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>VanadisComponents.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F153F70A1977E5C300B1E2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F153F71A1977E5C300B1E2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F153F73D1977EC3800B1E2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F153F7471977F26200B1E2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F153F7B419780DE400B1E2DC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
