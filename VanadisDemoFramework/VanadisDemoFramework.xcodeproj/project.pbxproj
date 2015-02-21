@@ -22,30 +22,15 @@
 
 /* Begin PBXBuildFile section */
 		F198B72A1A8FC43600A0EE0B /* VanadisDemoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = F198B7291A8FC43600A0EE0B /* VanadisDemoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F198B7301A8FC43600A0EE0B /* VanadisDemoFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F198B7241A8FC43600A0EE0B /* VanadisDemoFramework.framework */; };
-		F198B7371A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F198B7361A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m */; };
 		F198B7421A8FC47700A0EE0B /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F198B7401A8FC47700A0EE0B /* Person.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F198B7431A8FC47700A0EE0B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F198B7411A8FC47700A0EE0B /* Person.m */; };
 		F198B74C1A8FD42900A0EE0B /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = F198B74B1A8FD42900A0EE0B /* License.txt */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F198B7311A8FC43600A0EE0B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F198B71B1A8FC43600A0EE0B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F198B7231A8FC43600A0EE0B;
-			remoteInfo = VanadisDemoFramework;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		F198B7241A8FC43600A0EE0B /* VanadisDemoFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VanadisDemoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F198B7281A8FC43600A0EE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F198B7291A8FC43600A0EE0B /* VanadisDemoFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VanadisDemoFramework.h; sourceTree = "<group>"; };
-		F198B72F1A8FC43600A0EE0B /* VanadisDemoFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanadisDemoFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F198B7351A8FC43600A0EE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F198B7361A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VanadisDemoFrameworkTests.m; sourceTree = "<group>"; };
 		F198B7401A8FC47700A0EE0B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		F198B7411A8FC47700A0EE0B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		F198B74B1A8FD42900A0EE0B /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
@@ -59,14 +44,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F198B72C1A8FC43600A0EE0B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F198B7301A8FC43600A0EE0B /* VanadisDemoFramework.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -75,7 +52,6 @@
 			children = (
 				F198B74B1A8FD42900A0EE0B /* License.txt */,
 				F198B7261A8FC43600A0EE0B /* VanadisDemoFramework */,
-				F198B7331A8FC43600A0EE0B /* VanadisDemoFrameworkTests */,
 				F198B7251A8FC43600A0EE0B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,7 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				F198B7241A8FC43600A0EE0B /* VanadisDemoFramework.framework */,
-				F198B72F1A8FC43600A0EE0B /* VanadisDemoFrameworkTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,23 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				F198B7281A8FC43600A0EE0B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		F198B7331A8FC43600A0EE0B /* VanadisDemoFrameworkTests */ = {
-			isa = PBXGroup;
-			children = (
-				F198B7361A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m */,
-				F198B7341A8FC43600A0EE0B /* Supporting Files */,
-			);
-			path = VanadisDemoFrameworkTests;
-			sourceTree = "<group>";
-		};
-		F198B7341A8FC43600A0EE0B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F198B7351A8FC43600A0EE0B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,24 +116,6 @@
 			productReference = F198B7241A8FC43600A0EE0B /* VanadisDemoFramework.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F198B72E1A8FC43600A0EE0B /* VanadisDemoFrameworkTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F198B73D1A8FC43600A0EE0B /* Build configuration list for PBXNativeTarget "VanadisDemoFrameworkTests" */;
-			buildPhases = (
-				F198B72B1A8FC43600A0EE0B /* Sources */,
-				F198B72C1A8FC43600A0EE0B /* Frameworks */,
-				F198B72D1A8FC43600A0EE0B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F198B7321A8FC43600A0EE0B /* PBXTargetDependency */,
-			);
-			name = VanadisDemoFrameworkTests;
-			productName = VanadisDemoFrameworkTests;
-			productReference = F198B72F1A8FC43600A0EE0B /* VanadisDemoFrameworkTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -186,9 +126,6 @@
 				ORGANIZATIONNAME = Vanadis;
 				TargetAttributes = {
 					F198B7231A8FC43600A0EE0B = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					F198B72E1A8FC43600A0EE0B = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 					F198B7441A8FC97200A0EE0B = {
@@ -209,7 +146,6 @@
 			projectRoot = "";
 			targets = (
 				F198B7231A8FC43600A0EE0B /* VanadisDemoFramework */,
-				F198B72E1A8FC43600A0EE0B /* VanadisDemoFrameworkTests */,
 				F198B7441A8FC97200A0EE0B /* Universal */,
 			);
 		};
@@ -221,13 +157,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F198B74C1A8FD42900A0EE0B /* License.txt in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F198B72D1A8FC43600A0EE0B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,23 +187,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F198B72B1A8FC43600A0EE0B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F198B7371A8FC43600A0EE0B /* VanadisDemoFrameworkTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F198B7321A8FC43600A0EE0B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F198B7231A8FC43600A0EE0B /* VanadisDemoFramework */;
-			targetProxy = F198B7311A8FC43600A0EE0B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		F198B7381A8FC43600A0EE0B /* Debug */ = {
@@ -392,36 +305,6 @@
 			};
 			name = Release;
 		};
-		F198B73E1A8FC43600A0EE0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = VanadisDemoFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		F198B73F1A8FC43600A0EE0B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = VanadisDemoFrameworkTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F198B7461A8FC97200A0EE0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -453,15 +336,6 @@
 			buildConfigurations = (
 				F198B73B1A8FC43600A0EE0B /* Debug */,
 				F198B73C1A8FC43600A0EE0B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F198B73D1A8FC43600A0EE0B /* Build configuration list for PBXNativeTarget "VanadisDemoFrameworkTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F198B73E1A8FC43600A0EE0B /* Debug */,
-				F198B73F1A8FC43600A0EE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
