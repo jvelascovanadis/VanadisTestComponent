@@ -1,0 +1,16 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'VanadisTest_AdaptativeLayout_tutorial' do
+
+pod 'AFNetworking'
+#pod 'VanadisDemoFramework', :git => 'https://github.com/jvelascovanadis/FirstCocoaPod.git'
+pod 'VanadisDemoFramework'
+end
+
+target 'VanadisTest_AdaptativeLayout_tutorialTests' do
+
+end
+

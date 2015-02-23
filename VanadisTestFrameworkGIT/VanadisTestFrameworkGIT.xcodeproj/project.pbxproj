@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F166010A1A9BBEA3009F1974 /* VanadisTestFrameworkGIT.h in Headers */ = {isa = PBXBuildFile; fileRef = F16601091A9BBEA3009F1974 /* VanadisTestFrameworkGIT.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F16601101A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F16601041A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework */; };
+		F16601171A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F16601161A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.m */; };
+		F16601221A9BBEB8009F1974 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = F16601201A9BBEB8009F1974 /* Person.h */; };
+		F16601231A9BBEB8009F1974 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F16601211A9BBEB8009F1974 /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16601111A9BBEA3009F1974 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16600FB1A9BBEA3009F1974 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F16601031A9BBEA3009F1974;
+			remoteInfo = VanadisTestFrameworkGIT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F16601041A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VanadisTestFrameworkGIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16601081A9BBEA3009F1974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16601091A9BBEA3009F1974 /* VanadisTestFrameworkGIT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VanadisTestFrameworkGIT.h; sourceTree = "<group>"; };
+		F166010F1A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VanadisTestFrameworkGITTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16601151A9BBEA3009F1974 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16601161A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VanadisTestFrameworkGITTests.m; sourceTree = "<group>"; };
+		F16601201A9BBEB8009F1974 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F16601211A9BBEB8009F1974 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F16601001A9BBEA3009F1974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F166010C1A9BBEA3009F1974 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16601101A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16600FA1A9BBEA3009F1974 = {
+			isa = PBXGroup;
+			children = (
+				F16601061A9BBEA3009F1974 /* VanadisTestFrameworkGIT */,
+				F16601131A9BBEA3009F1974 /* VanadisTestFrameworkGITTests */,
+				F16601051A9BBEA3009F1974 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16601051A9BBEA3009F1974 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F16601041A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework */,
+				F166010F1A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16601061A9BBEA3009F1974 /* VanadisTestFrameworkGIT */ = {
+			isa = PBXGroup;
+			children = (
+				F16601201A9BBEB8009F1974 /* Person.h */,
+				F16601211A9BBEB8009F1974 /* Person.m */,
+				F16601091A9BBEA3009F1974 /* VanadisTestFrameworkGIT.h */,
+				F16601071A9BBEA3009F1974 /* Supporting Files */,
+			);
+			path = VanadisTestFrameworkGIT;
+			sourceTree = "<group>";
+		};
+		F16601071A9BBEA3009F1974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16601081A9BBEA3009F1974 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16601131A9BBEA3009F1974 /* VanadisTestFrameworkGITTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16601161A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.m */,
+				F16601141A9BBEA3009F1974 /* Supporting Files */,
+			);
+			path = VanadisTestFrameworkGITTests;
+			sourceTree = "<group>";
+		};
+		F16601141A9BBEA3009F1974 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16601151A9BBEA3009F1974 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F16601011A9BBEA3009F1974 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F166010A1A9BBEA3009F1974 /* VanadisTestFrameworkGIT.h in Headers */,
+				F16601221A9BBEB8009F1974 /* Person.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F16601031A9BBEA3009F1974 /* VanadisTestFrameworkGIT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F166011A1A9BBEA3009F1974 /* Build configuration list for PBXNativeTarget "VanadisTestFrameworkGIT" */;
+			buildPhases = (
+				F16600FF1A9BBEA3009F1974 /* Sources */,
+				F16601001A9BBEA3009F1974 /* Frameworks */,
+				F16601011A9BBEA3009F1974 /* Headers */,
+				F16601021A9BBEA3009F1974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VanadisTestFrameworkGIT;
+			productName = VanadisTestFrameworkGIT;
+			productReference = F16601041A9BBEA3009F1974 /* VanadisTestFrameworkGIT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F166010E1A9BBEA3009F1974 /* VanadisTestFrameworkGITTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F166011D1A9BBEA3009F1974 /* Build configuration list for PBXNativeTarget "VanadisTestFrameworkGITTests" */;
+			buildPhases = (
+				F166010B1A9BBEA3009F1974 /* Sources */,
+				F166010C1A9BBEA3009F1974 /* Frameworks */,
+				F166010D1A9BBEA3009F1974 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16601121A9BBEA3009F1974 /* PBXTargetDependency */,
+			);
+			name = VanadisTestFrameworkGITTests;
+			productName = VanadisTestFrameworkGITTests;
+			productReference = F166010F1A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16600FB1A9BBEA3009F1974 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vanadis;
+				TargetAttributes = {
+					F16601031A9BBEA3009F1974 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F166010E1A9BBEA3009F1974 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = F16600FE1A9BBEA3009F1974 /* Build configuration list for PBXProject "VanadisTestFrameworkGIT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F16600FA1A9BBEA3009F1974;
+			productRefGroup = F16601051A9BBEA3009F1974 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F16601031A9BBEA3009F1974 /* VanadisTestFrameworkGIT */,
+				F166010E1A9BBEA3009F1974 /* VanadisTestFrameworkGITTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F16601021A9BBEA3009F1974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F166010D1A9BBEA3009F1974 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F16600FF1A9BBEA3009F1974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16601231A9BBEB8009F1974 /* Person.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F166010B1A9BBEA3009F1974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16601171A9BBEA3009F1974 /* VanadisTestFrameworkGITTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16601121A9BBEA3009F1974 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F16601031A9BBEA3009F1974 /* VanadisTestFrameworkGIT */;
+			targetProxy = F16601111A9BBEA3009F1974 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F16601181A9BBEA3009F1974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F16601191A9BBEA3009F1974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F166011B1A9BBEA3009F1974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VanadisTestFrameworkGIT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F166011C1A9BBEA3009F1974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VanadisTestFrameworkGIT/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F166011E1A9BBEA3009F1974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VanadisTestFrameworkGITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F166011F1A9BBEA3009F1974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VanadisTestFrameworkGITTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F16600FE1A9BBEA3009F1974 /* Build configuration list for PBXProject "VanadisTestFrameworkGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16601181A9BBEA3009F1974 /* Debug */,
+				F16601191A9BBEA3009F1974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F166011A1A9BBEA3009F1974 /* Build configuration list for PBXNativeTarget "VanadisTestFrameworkGIT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F166011B1A9BBEA3009F1974 /* Debug */,
+				F166011C1A9BBEA3009F1974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F166011D1A9BBEA3009F1974 /* Build configuration list for PBXNativeTarget "VanadisTestFrameworkGITTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F166011E1A9BBEA3009F1974 /* Debug */,
+				F166011F1A9BBEA3009F1974 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16600FB1A9BBEA3009F1974 /* Project object */;
+}
